@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike Product Card Dark</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<!-- BEGIN ba-container  -->
+	<div class="ba-container">
+		<main>
+			<article class="ba-product">
+				<div class="ba-product__header">
+					<a class="ba-logo">
+						<img src="img/logo.png" alt="nike">
+					</a>
+				</div>
+				<div class="cf">
+					<div class="ba-product__slider">
+							<img src="img/snicker.png" alt="sneacker">
+						<div class="ba-pruduct__colors">
+							<label class="ba-radio ba-radio--blue">
+								<input type="radio" name="color" value="blue" checked>
+								<span></span>
+							</label>
+							<label class="ba-radio ba-radio--white">
+								<input type="radio" name="color" value="white"">
+								<span></span>
+							</label>
+							<label class="ba-radio ba-radio--red">
+								<input type="radio" name="color" value="red">
+								<span></span>
+							</label>
+							<label class="ba-radio ba-radio-green">
+								<input type="radio" name="color" value="green">
+								<span></span>
+							</label>
+						</div>
+					</div>
+					<div class="ba-product__info">
+						<h1 class="ba-product__title">Nike SB Stefan Janoski Max</h1>
+						<h2 class="ba-subtitle">Unisex Skateboarding Shoe</h2>
+						<div class="ba-product-rating">
+							<label class="ba-checkbox">
+								<input type="checkbox" name="rating" checked>
+								<span>★</span>
+							</label>
+							<label class="ba-checkbox">
+								<input type="checkbox" name="rating" checked>
+								<span>★</span>
+							</label>
+							<label class="ba-checkbox">
+								<input type="checkbox" name="rating" checked>
+								<span>★</span>
+							</label>
+							<label class="ba-checkbox">
+								<input type="checkbox" name="rating">
+								<span>★</span>
+							</label>
+							<label class="ba-checkbox">
+								<input type="checkbox" name="rating">
+								<span>★</span>
+							</label>
+						</div>
+						<form action="#" class="ba-form-add-to-cart" method="post">
+							<select name="size" class="ba-size">
+								<option value="0">Size</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select>
+							<input type="number" name="quantity" class="ba-quantity" min="1" max="5" value="1">
+
+							</input>
+
+							<button class="ba-button" type="submit">
+								Add to card
+							</button>
+						</form>
+					</div>
+				</div>
+
+			</article>
+		</main>
+	</div>
+</div>
+<!-- END ba-container -->
+</body>
+</html>
